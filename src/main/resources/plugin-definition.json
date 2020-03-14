@@ -1,0 +1,5 @@
+{
+  "name": "sample source",
+  "class": "top.lcmatrix.util.codegenerator.plugin.sample.SampleSourcePlugin",
+  "version": 1.0
+}
