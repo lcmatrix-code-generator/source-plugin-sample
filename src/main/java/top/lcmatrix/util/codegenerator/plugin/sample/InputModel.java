@@ -12,8 +12,8 @@ public class InputModel {
     @InputField(label = "Please enter some text")
     private String textFieldSpecifyLabel;
 
-    @InputField(label = "a required text filed", required = true)
-    private String textFieldRequired;
+    @InputField(label = "a required text filed", required = true, multiLine = true)
+    private String textAreaFieldRequired;
 
     @InputField(label = "a checked checkbox", defaultValue = "true")
     private boolean fieldWithDefaultValue;
@@ -55,12 +55,12 @@ public class InputModel {
         this.textFieldSpecifyLabel = textFieldSpecifyLabel;
     }
 
-    public String getTextFieldRequired() {
-        return textFieldRequired;
+    public String getTextAreaFieldRequired() {
+        return textAreaFieldRequired;
     }
 
-    public void setTextFieldRequired(String textFieldRequired) {
-        this.textFieldRequired = textFieldRequired;
+    public void setTextAreaFieldRequired(String textAreaFieldRequired) {
+        this.textAreaFieldRequired = textAreaFieldRequired;
     }
 
     public boolean isFieldWithDefaultValue() {
